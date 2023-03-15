@@ -1,0 +1,41 @@
+.background{
+    background-image: url('./countries.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.LPButton {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(10, 10, 122);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid; 
+    border-color: rgb(73, 8, 73);
+    font-size: 18px;
+    transition: 0.2s all ease-in-out;
+}
+  
+  .LPButton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transform-origin: center;
+    background-color: rgb(73, 8, 73);
+    border: 3px solid;
+    border-color: rgb(44, 15, 44);
+}
+  
+  .LPButton.clicked {
+    background-color: red;
+  }
+
+  .centerDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
